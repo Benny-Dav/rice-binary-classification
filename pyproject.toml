@@ -1,0 +1,26 @@
+[project]
+name = "rice-binary-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Benny", email = "benedictadavour777@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "google-ml-edu==0.1.2",
+    "keras~=3.8.0",
+    "matplotlib~=3.10.0",
+    "numpy~=2.0.0",
+    "pandas~=2.2.0",
+    "plotly>=7.1.0",
+    "scikit-learn>=1.9.1",
+    "tensorflow~=2.18.0",
+]
+
+[project.scripts]
+rice-binary-classification = "rice_binary_classification:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
