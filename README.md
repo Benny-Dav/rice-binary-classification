@@ -1,9 +1,11 @@
 Rice Variety Binary Classification
+
 This is a machine learning project that uses physical measurements of rice grains to classify them into two varieties: Cammeo and Osmancik.
 
 The project explores an end-to-end supervised machine learning workflow, covering data exploration, preprocessing, model development, evaluation, error analysis, model comparison and predictions on unseen data.
 
 Project Overview
+
 The objective is to build a classification model that can identify the variety of a rice grain based on its physical characteristics and measurements.
 This is a binary classification problem with two target classes:
 -Cammeo
